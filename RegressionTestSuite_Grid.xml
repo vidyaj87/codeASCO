@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" parallel = "tests">
+<test name="Site test1">
+       <classes>
+ 	<!--<class name="admin.activity.CreateOnlineActivityWithoutPurchase"/>-->
+ 	<class name="admin.activity.CreateClientProduct"/>
+		 </classes>
+  </test>
+<test name="Site test2">
+<parameter name="hub"  value="http://localhost:4444/wd/hub"/>
+       <classes>
+       <class name="admin.activity.CreateClientProduct"/>
+ 	       <!--<class name="admin.activity.CreateActivity"/>
+ 	        <class name="admin.activity.CreateClientProduct"/>
+ 	        <class name="admin.activity.CreateOnlineActivityWithoutPurchase"/>-->
+	    </classes>
+  </test>
+
+
+
+
+</suite>

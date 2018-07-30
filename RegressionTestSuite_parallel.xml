@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" parallel="tests" >
+  <test name="Site test1">
+       <classes>
+        <!--   <class name="login.AdminLogin"/>
+            
+	   <class name="adminActivity.CreateClientProduct"/>
+           
+	 <class name="adminActivity.CreateFreeClientProduct"/>-->
+
+      
+	</classes>
+  
+  </test>
+  
+  <test name="Site test2">
+      
+	<classes>
+         
+	<class name="adminActivity.CreateOnlineActivityWithPurchase"/>	
+	<!--	<class name="adminActivity.Dashboard"/>-->
+      <!--<class name="adminActivity.CreateActivity"/> 
+     
+	 <class name="adminActivity.CreateOnlineActivityWithoutPurchase"/> 
+  
+	    <class name="adminActivity.TagActivities"/>-->
+       </classes>
+  </test>
+</suite>
